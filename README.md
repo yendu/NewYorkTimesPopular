@@ -3,6 +3,7 @@ It is a simple app which shows popular news
 
 To build and run the app
   ./gradlew build
+  
   ./gradlew installDebug
 
 To run all tests

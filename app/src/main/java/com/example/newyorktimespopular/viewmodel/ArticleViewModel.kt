@@ -20,14 +20,14 @@ class ArticleViewModel(
 
     init {
         viewModelScope.launch(dispatcher) {
-            listRepos.postValue(articleRepository.getArticles("1"))
+            listRepos.postValue(articleRepository.getArticles("7"))
         }
 
     }
 
     fun getArticles() {
         viewModelScope.launch(dispatcher) {
-            listRepos.postValue(articleRepository.getArticles("1"))
+            listRepos.postValue(articleRepository.getArticles("7"))
         }
 
     }

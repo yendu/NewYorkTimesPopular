@@ -12,10 +12,10 @@ import com.example.newyorktimespopular.R
 import com.example.newyorktimespopular.model.Article
 
 
-class ArticlesAdapter(var context: Context, var onarticleClick: ArticleClick) :
+class ArticlesAdapter(var context: Context, articleClick: ArticleClick) :
     RecyclerView.Adapter<ArticlesAdapter.ArticleViewHolder>() {
     private var articles: List<Article>? = null
-    private var articleClick:ArticleClick = onarticleClick
+    private var articleClick:ArticleClick = articleClick
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ArticleViewHolder {
         val view: View =
             LayoutInflater.from(context).inflate(R.layout.article_itemview, parent, false)

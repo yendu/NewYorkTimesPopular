@@ -14,6 +14,7 @@
         <!-- Customize your theme here. -->
         <item name="android:listDivider">@drawable/divider</item>
         <item name="android:textColor">@color/white</item>
+
     </style>
 
     <style name="Theme.NewYorkTimesPopular.NoActionBar">
@@ -21,6 +22,10 @@
         <item name="windowNoTitle">true</item>
     </style>
 
+    <style name="SplashTheme" parent="Theme.AppCompat.NoActionBar">
+        <item name="android:windowBackground">@drawable/splash</item>
+        <item name="background">@color/black</item>
+    </style>
     <style name="Theme.NewYorkTimesPopular.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
 
     <style name="Theme.NewYorkTimesPopular.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
